@@ -11,8 +11,8 @@
 		4321F7D52BBEBABD00447114 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4321F7D42BBEBABD00447114 /* ShareViewController.swift */; };
 		4321F7D82BBEBABD00447114 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4321F7D62BBEBABD00447114 /* MainInterface.storyboard */; };
 		4321F7DC2BBEBABD00447114 /* PlaylistActionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4321F7D22BBEBABC00447114 /* PlaylistActionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4345E9452C8992E300759D3E /* SaveProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4345E9442C8992E300759D3E /* SaveProgressView.swift */; };
-		4345E9482C899B8A00759D3E /* SaveProgressPortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4345E9472C899B8A00759D3E /* SaveProgressPortraitView.swift */; };
+		4345E9452C8992E300759D3E /* SaveProgressMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4345E9442C8992E300759D3E /* SaveProgressMainView.swift */; };
+		4345E9482C899B8A00759D3E /* SaveProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4345E9472C899B8A00759D3E /* SaveProgressView.swift */; };
 		4345E94A2C89B15E00759D3E /* RectagleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4345E9492C89B15E00759D3E /* RectagleButton.swift */; };
 		435CD1402AC581FD00B6CB3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 435CD13F2AC581FD00B6CB3F /* InfoPlist.strings */; };
 		43A214D02C1990ED0006A15B /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A214CF2C1990ED0006A15B /* AuthenticationServices.framework */; };
@@ -86,8 +86,8 @@
 		4321F7D42BBEBABD00447114 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		4321F7D72BBEBABD00447114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		4321F7D92BBEBABD00447114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4345E9442C8992E300759D3E /* SaveProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveProgressView.swift; sourceTree = "<group>"; };
-		4345E9472C899B8A00759D3E /* SaveProgressPortraitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveProgressPortraitView.swift; sourceTree = "<group>"; };
+		4345E9442C8992E300759D3E /* SaveProgressMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveProgressMainView.swift; sourceTree = "<group>"; };
+		4345E9472C899B8A00759D3E /* SaveProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveProgressView.swift; sourceTree = "<group>"; };
 		4345E9492C89B15E00759D3E /* RectagleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectagleButton.swift; sourceTree = "<group>"; };
 		435CD13F2AC581FD00B6CB3F /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		435CD1502AC6832200B6CB3F /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -170,8 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				4345E9492C89B15E00759D3E /* RectagleButton.swift */,
-				4345E9442C8992E300759D3E /* SaveProgressView.swift */,
-				4345E9472C899B8A00759D3E /* SaveProgressPortraitView.swift */,
+				4345E9442C8992E300759D3E /* SaveProgressMainView.swift */,
+				4345E9472C899B8A00759D3E /* SaveProgressView.swift */,
 			);
 			path = SaveProgress;
 			sourceTree = "<group>";
@@ -469,8 +469,8 @@
 				43118F2F2C2583F40093AF0D /* UISliderWithChapter.swift in Sources */,
 				43DE655B29B730A600799DA8 /* ViewController.swift in Sources */,
 				4345E94A2C89B15E00759D3E /* RectagleButton.swift in Sources */,
-				4345E9452C8992E300759D3E /* SaveProgressView.swift in Sources */,
-				4345E9482C899B8A00759D3E /* SaveProgressPortraitView.swift in Sources */,
+				4345E9452C8992E300759D3E /* SaveProgressMainView.swift in Sources */,
+				4345E9482C899B8A00759D3E /* SaveProgressView.swift in Sources */,
 				43DE655729B730A600799DA8 /* AppDelegate.swift in Sources */,
 				43CEF63D2B4BAE0D000AFE09 /* SwiftUIView.swift in Sources */,
 			);
