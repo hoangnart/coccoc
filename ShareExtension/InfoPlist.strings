@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  browser-dev
+
+  Created by hoangtv on 28/09/2023.
+*/
+
+"NSLocationWhenInUseUsageDescription" = "Description of this";
